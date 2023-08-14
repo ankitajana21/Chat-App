@@ -4,11 +4,7 @@
  * It's handy if you do not have shell access. E.g. if you want to upload a lot
  * of files (php framework or image collection) as an archive to save time.
  * As of version 0.1.0 it also supports creating archives.
- *
- * @author  Andreas Tasch, at[tec], attec.at
- * @license GNU GPL v3
- * @package attec.toolbox
- * @version 0.1.1
+ 
  */
 define('VERSION', '0.1.1');
 
@@ -229,7 +225,6 @@ class Unzipper {
  * Class Zipper
  *
  * Copied and slightly modified from http://at2.php.net/manual/en/class.ziparchive.php#110719
- * @author umbalaconmeogia
  */
 class Zipper {
   /**
